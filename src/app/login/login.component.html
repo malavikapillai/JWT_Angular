@@ -1,0 +1,17 @@
+<div class="container">
+    <p class="headline">login</p>
+    <div>
+        <div class="box">
+            <p>Email</p>
+            <div><input type="text" name="name" [(ngModel)]="apilogin.emailId"  placeholder="Enter your Email"></div>
+        </div>
+    </div>
+    <div>
+        <div class="box">
+            <p>Password</p>
+            <div><input type="password" name="password" [(ngModel)]="apilogin.password" placeholder="Enter your Password"></div>
+        </div>
+    </div>
+    <button class="loginBtn" (click)="login()">Login</button>
+    <p class="text">Don't have an account?<a href="#">Sign in</a></p>
+</div>
