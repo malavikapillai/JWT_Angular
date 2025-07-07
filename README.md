@@ -1,5 +1,23 @@
 # JWT
 
+# 🔐 JWT_Angular
+
+This project demonstrates how to implement **JWT-based authentication** in an **Angular** application. It includes login, protected routes using Angular route guards, token storage, HTTP interceptors, and logout functionality.
+
+---
+
+## 📦 Features
+
+- ✅ User Login with JWT token
+- ✅ Token storage using `localStorage`
+- ✅ Route protection using **Auth Guards**
+- ✅ Token auto-attach via **HTTP Interceptor**
+- ✅ Auto logout on token expiry (optional)
+- ✅ Role-based access (if implemented)
+- ✅ Clean, modular Angular structure
+
+---
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
 
 ## Development server
